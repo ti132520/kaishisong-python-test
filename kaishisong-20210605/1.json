@@ -1,0 +1,130 @@
+{
+  "StreamConfig": {},
+  "State": {
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "RemovalInProgress": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 128,
+    "Error": "driver failed programming external connectivity on endpoint baota (fda591d0639ea7febf697db9407fcd4ed44faa300b260b739f3af1f2dd1ce2d1): Error starting userland proxy: listen tcp4 0.0.0.0:888: bind: address already in use",
+    "StartedAt": "0001-01-01T00:00:00Z",
+    "FinishedAt": "0001-01-01T00:00:00Z",
+    "Health": null
+  },
+  "ID": "1e64c33c105c250b2a62d42382cce39ea313cdfecb6d742240283bed1e124ab8",
+  "Created": "2021-06-06T10:20:27.495575822Z",
+  "Managed": false,
+  "Path": "/bin/bash",
+  "Args": [],
+  "Config": {
+    "Hostname": "1e64c33c105c",
+    "Domainname": "",
+    "User": "",
+    "AttachStdin": false,
+    "AttachStdout": false,
+    "AttachStderr": false,
+    "ExposedPorts": {
+      "20/tcp": {},
+      "21/tcp": {},
+      "443/tcp": {},
+      "80/tcp": {},
+      "888/tcp": {},
+      "8888/tcp": {}
+    },
+    "Tty": true,
+    "OpenStdin": true,
+    "StdinOnce": false,
+    "Env": [
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    ],
+    "Cmd": [
+      "/bin/bash"
+    ],
+    "Image": "centos",
+    "Volumes": null,
+    "WorkingDir": "",
+    "Entrypoint": null,
+    "OnBuild": null,
+    "Labels": {
+      "org.label-schema.build-date": "20201204",
+      "org.label-schema.license": "GPLv2",
+      "org.label-schema.name": "CentOS Base Image",
+      "org.label-schema.schema-version": "1.0",
+      "org.label-schema.vendor": "CentOS"
+    }
+  },
+  "Image": "sha256:300e315adb2f96afe5f0b2780b87f28ae95231fe3bdd1e16b9ba606307728f55",
+  "NetworkSettings": {
+    "Bridge": "",
+    "SandboxID": "845761471b6f7f62a87da429e855dc1a6023838ec151e784aa46ad3ad334a1a9",
+    "HairpinMode": false,
+    "LinkLocalIPv6Address": "",
+    "LinkLocalIPv6PrefixLen": 0,
+    "Networks": {
+      "bridge": {
+        "IPAMConfig": null,
+        "Links": null,
+        "Aliases": null,
+        "NetworkID": "4c40644ce1b2009858ce2953de34fe06fa178bfbd6148cebc02b28a6802306a4",
+        "EndpointID": "fda591d0639ea7febf697db9407fcd4ed44faa300b260b739f3af1f2dd1ce2d1",
+        "Gateway": "",
+        "IPAddress": "172.18.0.2",
+        "IPPrefixLen": 16,
+        "IPv6Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "MacAddress": "02:42:ac:12:00:02",
+        "DriverOpts": null,
+        "IPAMOperational": false
+      }
+    },
+    "Service": null,
+    "Ports": null,
+    "SandboxKey": "/var/run/docker/netns/845761471b6f",
+    "SecondaryIPAddresses": null,
+    "SecondaryIPv6Addresses": null,
+    "IsAnonymousEndpoint": false,
+    "HasSwarmEndpoint": false
+  },
+  "LogPath": "",
+  "Name": "/baota",
+  "Driver": "overlay2",
+  "OS": "linux",
+  "MountLabel": "",
+  "ProcessLabel": "",
+  "RestartCount": 0,
+  "HasBeenStartedBefore": false,
+  "HasBeenManuallyStopped": false,
+  "MountPoints": {
+    "/www": {
+      "Source": "/www",
+      "Destination": "/www",
+      "RW": true,
+      "Name": "",
+      "Driver": "",
+      "Type": "bind",
+      "Propagation": "rprivate",
+      "Spec": {
+        "Type": "bind",
+        "Source": "/www",
+        "Target": "/www"
+      },
+      "SkipMountpointCreation": false
+    }
+  },
+  "SecretReferences": null,
+  "ConfigReferences": null,
+  "AppArmorProfile": "",
+  "HostnamePath": "",
+  "HostsPath": "/var/lib/docker/containers/1e64c33c105c250b2a62d42382cce39ea313cdfecb6d742240283bed1e124ab8/hosts",
+  "ShmPath": "",
+  "ResolvConfPath": "/var/lib/docker/containers/1e64c33c105c250b2a62d42382cce39ea313cdfecb6d742240283bed1e124ab8/resolv.conf",
+  "SeccompProfile": "",
+  "NoNewPrivileges": false,
+  "LocalLogCacheMeta": {
+    "HaveNotifyEnabled": false
+  }
+}

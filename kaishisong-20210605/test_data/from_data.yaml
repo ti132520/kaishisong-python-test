@@ -1,0 +1,6 @@
+- from_address: '12栋'
+  to_address: '完美世界'
+  weight: '5'
+  item_select: '文件证件'
+  remarke: ''
+  time: '今天 立即取件'
